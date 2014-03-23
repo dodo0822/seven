@@ -1,0 +1,70 @@
+body {
+	color: #000;
+	background: #000;
+}
+
+#page {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#header {
+	clear: both;
+	width: 100%;
+	height: 150px;
+}
+
+#header h1 {
+	font-size: 50px;
+	font-family: Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+	color: #F3F3F3;
+}
+
+#header p {
+	font-size: 20px;
+	color: #90796A;
+	font-family: Monaco, Consolas, serif;
+}
+
+#main {
+	width: 100%;
+	clear: both;
+	margin-bottom: 20px;
+	overflow: auto;
+}
+
+#main-left {
+	width: 600px;
+	float: left;
+	border: 1px solid #B16E22;
+	border-radius: 5px;
+	background: #FFF;
+	padding: 15px;
+}
+
+#main-right {
+	width: 270px;
+	margin-left: 20px;
+	float: left;
+}
+
+.sidebar-widget {
+	padding: 10px;
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #B16E22;
+	border-radius: 5px;
+	background: #FFF;
+}
+
+#footer {
+	border-top: 1px solid #B16E22;
+	padding-top: 10px;
+	color: #FFF;
+	clear: both;
+	width: 100%;
+}
+
+#footer a {
+	color: #EEE;
+}

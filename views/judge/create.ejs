@@ -1,0 +1,11 @@
+<% include ../header %>
+<h3>Create Judge Website</h3>
+<form method="POST" action="/judge/create">
+	<p><label>Name: <input type="text" name="name" /></label></p>	
+	<p><label>Abbr: <input type="text" name="abbr" /></label></p>
+	<p><label>HomePage: <input type="text" name="home_page" /></label></p>
+	<p><label>ProblemPage: <input type="text" name="problem_page" /></label></p>
+	<p><input type="submit" value="Submit" /></p>
+</form>
+<% include ../sidebar %>
+<% include ../footer %>

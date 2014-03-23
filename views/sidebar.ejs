@@ -1,0 +1,15 @@
+				</div>
+				<div id="main-right">
+					<div class="sidebar-widget">
+						<p><strong>Judges List</strong></p>
+						<ul>
+							<% judges.forEach(function(judge){ %>
+								<li>
+									<%= judge.name %><br />
+									<a href="/translation/byJudge/<%= judge._id %>">翻譯</a>｜<a href="/analysis/byJudge/<%= judge._id %>">題解</a>
+								</li>
+							<% }); %>
+						</ul>
+					</div>
+				</div>
+			</div>
